@@ -1,9 +1,4 @@
-	<?php
-// handle=path to timetable
-// hours flag= show hours. 1- show, 0-hide
-// alert_value= minutes
-// how many timetables
-
+<?php
 function calculate($handle,$hours_flag, $alert_value,$how) 
 {
 	$now=date('H:i');
